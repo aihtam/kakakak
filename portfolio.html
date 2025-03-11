@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Matheus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #111 ;
+            color: #ddd;
+            font-family: "Montserrat";
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            font-size: 1.5rem;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 7rem;
+            gap: 5rem;
+        }
+
+        #img{
+            width: 25vw;
+            border-radius: 50%;
+            box-shadow: 0px 0px 20px #3500da;
+        }
+
+        #informations{
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        h1{font-size: 3.5rem; font-weight: 999;}
+        h1 span{color: #3500da;}
+
+        h2{font-size: 2.3rem;}
+
+        p{font-size: 1.1rem;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">Portfolio</div>
+        <div id="menu">
+            <div id="home">Home</div>
+            <div id="skills">Skills</div>
+            <div id="education">Education</div>
+        </div>
+    </header>
+    <section>
+        <img src="imgs/179342261.jpg" id="img">
+        <div id="informations">
+            <h1>Hello I'm <span>Matheus</span></h1>
+            <h2>Just a <span>Developer</span></h2>
+            <p>I am a 14-year-old programming enthusiast with over two years of experience in various areas of development. I am currently studying Information Technology (IT), which complements my studies on programming and technologies in general. I am always looking for new knowledge that will help me evolve as a developer.</p>
+        </div>
+    </section>
+</body>
+</html>
