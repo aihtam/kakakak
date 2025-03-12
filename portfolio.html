@@ -18,14 +18,18 @@
             background-color: #111 ;
             color: #ddd;
             font-family: "Montserrat";
+            
         }
 
         header {
+            background-color: #000000;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 2rem;
+            padding: 1.6rem 2rem;
             font-size: 1.5rem;
+            position:fixed;
+            width: 100vw;
         }
 
         #logo{
@@ -56,12 +60,13 @@
         }
 
 
-        section{
+        #home{
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 7rem;
             gap: 5rem;
+            height: 100vh;
         }
 
         #img{
@@ -78,12 +83,28 @@
         }
 
         h1{font-size: 3.5rem; font-weight: 999;}
-        h1 span{color: #3500da;}
+        h1 span{color: #3500da; text-shadow: 0 0 5px rgb(64, 0, 255);}
 
         h2{font-size: 2.3rem;}
 
         p{font-size: 1.1rem;}
 
+        #skills{
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        #education{
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        #link a img{
+            height: 6vh;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
@@ -95,13 +116,22 @@
             <div><a href="#education">Education</a></div>
         </div>
     </header>
-    <section>
+    <section id="home">
         <img src="imgs/179342261.jpg" id="img">
         <div id="informations">
             <h1>Hello I'm <span>Matheus</span></h1>
             <h2>Just a <span>Developer</span></h2>
             <p>I am a 15-year-old programming enthusiast with over two years of experience in various areas of development. I am currently studying Information Technology (IT), which complements my studies on programming and technologies in general. I am always looking for new knowledge that will help me evolve as a developer.</p>
+            <div id="link">
+                <a href="https://github.com/aihtam"><img src="imgs/image copy.png"></a>
+            </div>
         </div>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+    </section>
+    <section id="education">
+        <h1>Education</h1>
     </section>
 </body>
 </html>
